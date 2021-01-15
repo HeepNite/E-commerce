@@ -1,0 +1,56 @@
+/* Woocommerce  */
+
+.woocommerce-terms-and-conditions {
+    display: block!important;
+}
+
+.form-row.validate-required {
+    display: none;
+}
+
+
+/* Custom check and notice */
+
+.checkout .woocommerce-checkout-review-order {
+    background-color: #fafafa!important;
+}
+
+.checkbox-contain {
+    padding-left: 2rem;
+}
+
+.txt-label {
+    cursor: pointer;
+}
+
+.notice-read {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #ffb10080;
+    padding: 0.9rem;
+    margin: 2rem 1.4rem;
+    border-left: solid 0.8rem;
+    border-color: #ce941299;
+    position: relative;
+    top: -1rem;
+}
+
+.notice-read i {
+    padding-right: 1rem;
+    color: #3a4660;
+}
+
+.notice-read p {
+    padding: 0px;
+    margin: 0px;
+    color: #3a4660;
+}
+
+.show-notice {
+    display: flex;
+}
+
+.hide-notice {
+    display: none;
+}
